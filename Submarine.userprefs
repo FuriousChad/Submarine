@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Sub_Movement.js">
+    <Files>
+      <File FileName="Assets/Scripts/Sub_Movement.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/InitFish.cs" Line="12" Column="3" />
+      <File FileName="Assets/Scripts/Sub_Movement.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FishMotion.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UnderwaterRender.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
