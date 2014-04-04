@@ -21,7 +21,6 @@ public class FishMovement : MonoBehaviour {
 
 	void UpdateFacingDirection()
 	{
-		Debug.Log("Updating facing direction");
 		this.transform.rotation = Quaternion.LookRotation(rigidbody.velocity, Vector3.up);
 	}
 }

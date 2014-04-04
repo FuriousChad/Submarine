@@ -1,6 +1,7 @@
 ﻿#pragma strict
 var waterHeight : float = 334;
-var bubbleParticles : ParticleSystem;
+var bubbles1 : ParticleSystem;
+var bubbles2 : ParticleSystem;
 private var isUnderWater : boolean;
 private var normalColor : Color;
 private var waterColor : Color;
@@ -28,7 +29,9 @@ function SetNormal()
 {
 	RenderSettings.fogColor = normalColor;
 	RenderSettings.fogDensity = 0.002f;
-	bubbleParticles.active = false;
+	bubbles1.active = false;
+	bubbles2.active = false;
+	
 
 }
 
@@ -36,6 +39,6 @@ function SetUnderWater()
 {
 	RenderSettings.fogColor = waterColor;
 	RenderSettings.fogDensity = 0.003;
-	bubbleParticles.active=true;
-	rigidbody.drag = 0;
+	bubbles1.active=true;
+	bubbles2.active=true;
 }

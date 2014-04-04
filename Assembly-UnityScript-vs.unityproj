@@ -48,9 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\FishMotion.js" />
      <Compile Include="Assets\Scripts\UnderwaterRender.js" />
-     <None Include="Assets\Models\Test Models\Shark\BLENDSWAP_LICENSE.txt" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\Models\Sub\submarine.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>

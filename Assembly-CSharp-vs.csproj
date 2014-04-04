@@ -55,9 +55,7 @@
      <Compile Include="Assets\Scripts\Pulse.cs" />
      <Compile Include="Assets\Scripts\SubMovement.cs" />
      <Compile Include="Assets\Scripts\master.cs" />
-     <None Include="Assets\Models\Test Models\Shark\BLENDSWAP_LICENSE.txt" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\Models\Sub\submarine.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>

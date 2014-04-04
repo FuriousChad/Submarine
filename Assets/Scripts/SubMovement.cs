@@ -8,9 +8,13 @@ public class SubMovement : MonoBehaviour
 	public float movementSpeed; // = 100f;
 	public float rotationSpeed; // = 5f;
 	public float maxSpeed;
-	public GameObject propeller;
-	public AnimationClip slowAnimationClip;
-	public AnimationClip fastAnimationClip;
+	public GameObject propeller1;
+	public GameObject propeller2;
+	public GameObject propeller3;
+	public GameObject propeller4;
+	
+	//public AnimationClip slowAnimationClip;
+	//public AnimationClip fastAnimationClip;
 	public ParticleSystem bubbles1;
 	public ParticleSystem bubbles2;
 	public ParticleSystem bubbles3;
@@ -22,7 +26,6 @@ public class SubMovement : MonoBehaviour
 
 	void Start()
 	{
-		rigidbody.drag = 0.05f;
 		rigidbody.freezeRotation = true;
 	}
 	
@@ -46,7 +49,13 @@ public class SubMovement : MonoBehaviour
 		if(Input.GetKey("up"))
 		{
 			forward();
-			//propeller.animation.CrossFade("Prop_Spin_Fast", 0.1f);
+
+			propeller1.animation.CrossFade("FastSpin", 0.1f);
+			propeller2.animation.CrossFade("FastSpin", 0.1f);
+			propeller3.animation.CrossFade("FastSpin", 0.1f);
+			propeller4.animation.CrossFade("FastSpin", 0.1f);
+			
+
 			bubbles1.emissionRate = 100f;
 			bubbles2.emissionRate = 100f;
 			bubbles3.emissionRate = 100f;
@@ -55,7 +64,11 @@ public class SubMovement : MonoBehaviour
 		}
 		else
 		{
-			//propeller.animation.CrossFade("Prop_Spin_Slow", 1.5f);
+			propeller1.animation.CrossFade("SlowSpin", 1.5f);
+			propeller2.animation.CrossFade("SlowSpin", 1.5f);
+			propeller3.animation.CrossFade("SlowSpin", 1.5f);
+			propeller4.animation.CrossFade("SlowSpin", 1.5f);
+
 			bubbles1.emissionRate = 10f;
 			bubbles2.emissionRate = 10f;
 			bubbles3.emissionRate = 10f;
