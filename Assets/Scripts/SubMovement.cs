@@ -50,10 +50,10 @@ public class SubMovement : MonoBehaviour
 		{
 			forward();
 
-			propeller1.animation.CrossFade("FastSpin", 0.1f);
-			propeller2.animation.CrossFade("FastSpin", 0.1f);
-			propeller3.animation.CrossFade("FastSpin", 0.1f);
-			propeller4.animation.CrossFade("FastSpin", 0.1f);
+			propeller1.animation.CrossFade("FastSpin", 0.5f);
+			propeller2.animation.CrossFade("FastSpin", 0.5f);
+			propeller3.animation.CrossFade("FastSpin", 0.5f);
+			propeller4.animation.CrossFade("FastSpin", 0.5f);
 			
 
 			bubbles1.emissionRate = 100f;
@@ -64,10 +64,10 @@ public class SubMovement : MonoBehaviour
 		}
 		else
 		{
-			propeller1.animation.CrossFade("SlowSpin", 1.5f);
-			propeller2.animation.CrossFade("SlowSpin", 1.5f);
-			propeller3.animation.CrossFade("SlowSpin", 1.5f);
-			propeller4.animation.CrossFade("SlowSpin", 1.5f);
+			propeller1.animation.CrossFade("SlowSpin", 0.5f);
+			propeller2.animation.CrossFade("SlowSpin", 0.5f);
+			propeller3.animation.CrossFade("SlowSpin", 0.5f);
+			propeller4.animation.CrossFade("SlowSpin", 0.5f);
 
 			bubbles1.emissionRate = 10f;
 			bubbles2.emissionRate = 10f;
