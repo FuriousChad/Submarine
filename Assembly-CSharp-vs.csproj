@@ -49,6 +49,8 @@
      <Compile Include="Assets\Flocking\BoidController.cs" />
      <Compile Include="Assets\Flocking\BoidFlocking.cs" />
      <Compile Include="Assets\Flocking\BoidWatcher.cs" />
+     <Compile Include="Assets\Scripts\Audio.cs" />
+     <Compile Include="Assets\Scripts\DimWithDepth.cs" />
      <Compile Include="Assets\Scripts\FishMovement.cs" />
      <Compile Include="Assets\Scripts\InitFish.cs" />
      <Compile Include="Assets\Scripts\MoveFlock.cs" />

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6c476a7a639994f4caf4cfbdcb3c5aa4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - idle: {fileID: 8300000, guid: a7e0a9af7447f4f15addd2e4c9c9afae, type: 3}
+  - spoolUp: {instanceID: 0}
+  - fullSpeed: {instanceID: 0}
+  - spoolDown: {instanceID: 0}
+  - background: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

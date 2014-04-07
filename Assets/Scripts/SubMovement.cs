@@ -12,6 +12,7 @@ public class SubMovement : MonoBehaviour
 	public GameObject propeller2;
 	public GameObject propeller3;
 	public GameObject propeller4;
+	public AudioClip hit;
 	
 	//public AnimationClip slowAnimationClip;
 	//public AnimationClip fastAnimationClip;
@@ -129,6 +130,10 @@ public class SubMovement : MonoBehaviour
 		rigidbody.freezeRotation = true;
 	}
 
+	void OnCollisionEnter(Collision collision)
+	{
+		audio.PlayOneShot(hit);
+	}
 	
 }
 

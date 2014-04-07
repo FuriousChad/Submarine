@@ -16,12 +16,11 @@ function Start ()
 
 function Update ()
 {
-	//if((transform.parent.gameObject.transform.position.y > waterHeight))
-	//{
-		isUnderWater = transform.position.y < waterHeight;
-		if(isUnderWater) SetUnderWater();
-		else SetNormal();
-	//}
+	// under or above water?
+	isUnderWater = transform.position.y < waterHeight;
+	if(isUnderWater) SetUnderWater();
+	else SetNormal();
+	
 }
 
 
