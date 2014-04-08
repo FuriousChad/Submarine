@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Audio : MonoBehaviour {
+public class Audio : MonoBehaviour
+{
+
+	public GUITexture button;
+	public Texture2D mutedTexture;
+	public Texture2D unmutedTexture;
 
 	void Start()
 	{
