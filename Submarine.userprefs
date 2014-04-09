@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/master.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CollisionParticles.cs">
     <Files>
-      <File FileName="Assets/Scripts/master.cs" Line="21" Column="33" />
-      <File FileName="Assets/Scripts/MuteAll.cs" Line="31" Column="66" />
+      <File FileName="Assets/Scripts/SubMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/master.cs" Line="9" Column="15" />
+      <File FileName="Assets/Scripts/MuteAll.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CollisionParticles.cs" Line="17" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

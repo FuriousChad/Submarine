@@ -8,22 +8,17 @@ public class SubMovement : MonoBehaviour
 	public float movementSpeed; // = 100f;
 	public float rotationSpeed; // = 5f;
 	public float maxSpeed;
-	public GameObject propeller1;
-	public GameObject propeller2;
-	public GameObject propeller3;
-	public GameObject propeller4;
+
+	public GameObject[] propellers;
+	public float propChangeRate;
+	public ParticleSystem[] bubbles;
+
 	public AudioClip hit;
-	
-	//public AnimationClip slowAnimationClip;
-	//public AnimationClip fastAnimationClip;
-	public ParticleSystem bubbles1;
-	public ParticleSystem bubbles2;
-	public ParticleSystem bubbles3;
-	public ParticleSystem bubbles4;
-	
+
 
 	// private variables
 	private float surfaceHeight = 450.2f;
+
 
 	void Start()
 	{
@@ -50,32 +45,28 @@ public class SubMovement : MonoBehaviour
 		if(Input.GetKey("up"))
 		{
 			forward();
+			foreach(GameObject prop in propellers)
+			{	
+				prop.animation.CrossFade("FastSpin", propChangeRate);
+			}
 
-			propeller1.animation.CrossFade("FastSpin", 0.5f);
-			propeller2.animation.CrossFade("FastSpin", 0.5f);
-			propeller3.animation.CrossFade("FastSpin", 0.5f);
-			propeller4.animation.CrossFade("FastSpin", 0.5f);
-			
-
-			bubbles1.emissionRate = 100f;
-			bubbles2.emissionRate = 100f;
-			bubbles3.emissionRate = 100f;
-			bubbles4.emissionRate = 100f;
-			
+			foreach(ParticleSystem bubble in bubbles)
+			{
+				bubble.emissionRate = 100f;
+			}
 		}
+
 		else
 		{
-			propeller1.animation.CrossFade("SlowSpin", 0.5f);
-			propeller2.animation.CrossFade("SlowSpin", 0.5f);
-			propeller3.animation.CrossFade("SlowSpin", 0.5f);
-			propeller4.animation.CrossFade("SlowSpin", 0.5f);
+			foreach(GameObject prop in propellers)
+			{	
+				prop.animation.CrossFade("SlowSpin", propChangeRate);
+			}
 
-			bubbles1.emissionRate = 10f;
-			bubbles2.emissionRate = 10f;
-			bubbles3.emissionRate = 10f;
-			bubbles4.emissionRate = 10f;
-			
-			
+			foreach(ParticleSystem bubble in bubbles)
+			{
+				bubble.emissionRate = 10f;
+			}
 		}
 
 		if(Input.GetKey("down"))
