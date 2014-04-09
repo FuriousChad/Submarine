@@ -1,11 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CollisionParticles.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Pulse.cs">
     <Files>
+      <File FileName="Assets/Scripts/Shoot.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Shoot.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SubMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/master.cs" Line="9" Column="15" />
+      <File FileName="Assets/Scripts/master.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MuteAll.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CollisionParticles.cs" Line="17" Column="2" />
+      <File FileName="Assets/Scripts/CollisionParticles.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FishCatch.cs" Line="6" Column="32" />
+      <File FileName="Assets/Scripts/Audio.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Pulse.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
